@@ -1,0 +1,145 @@
+body {
+    display: grid;
+    grid-template-rows: 200px 20px 1000px 20px;
+    grid-template-columns: 1fr;
+}
+
+#topBar {
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    background-color: #576CA8;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+
+#topBarTitle {
+    justify-self: left;
+    padding-left: 50px;
+    font-weight: 10000;
+    font-size: 40px
+}
+
+#topBarSilhouette {
+    justify-self: right;
+}
+
+#navBar {
+    background-color: #274690;
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+}
+
+#home, #contact, #links, #pictures {
+    justify-self: center;
+}
+
+
+#topPicture {
+    width: 200px;
+    height: 264px;
+    padding-left: 50px;
+}
+
+.textHeader, .textParagraph {
+    padding-left: 25px;
+}
+#mainText {
+    background-color: #E3DFFF;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+#contactSection {
+    background-color: #E3DFFF;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+#contactForm, #contactHeader {
+    padding-left: 25px;
+}
+
+#linksSection {
+    background-color: #E3DFFF;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+#linksHeader, #linksList {
+    padding-left: 25px;
+}
+
+#picturesSection {
+    background-color: #E3DFFF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+#picturesHeader {
+    padding-left: 25px;
+}
+
+#justThePictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.picture {
+    max-width: 600px;
+    max-height: 400px;
+    padding: 10px;
+    justify-self: center;
+}
+
+.pictureLabel {
+    font-size: 15px;
+    padding-left: 25px;
+    justify-self: center;
+    justify-content: center;
+}
+
+
+
+#footerBar {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    background-color: #576CA8;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr; 
+    color: #E3DFFF
+}
+
+
+a {
+    color: #E3DFFF;
+}
+
+a:link {
+    color: #E3DFFF;
+}
+
+a:visited {
+    color: #E3DFFF;
+}
+
+a:focus {
+    color: #E3DFFF;
+}
+
+a:hover {
+    color: #E3DFFF;
+}
+
+a:active {
+    color: #E3DFFF;
+}
+
+#l1, #l2, #l3, #l4, #l5 {
+    color: black;
+}
+
